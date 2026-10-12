@@ -11,7 +11,7 @@
 
 ## Overview
 
-This MATLAB GUIDE application implements a nine-band audio equalizer. Users provide an audio file, select FIR or IIR filtering, set a gain for each band, choose an output sample rate, and run the processing pipeline from the GUI.
+This MATLAB application implements a nine-band audio equalizer. Users provide an audio file, select FIR or IIR filtering, set a gain for each band, choose an output sample rate, and run the processing pipeline from the GUI.
 
 The implementation uses high-order FIR filters or third-order Butterworth IIR filters across the following frequency bands: 0-200 Hz, 200-400 Hz, 400-800 Hz, 800-1200 Hz, 1200-3000 Hz, 3000-6000 Hz, 6000-12000 Hz, 12000-15000 Hz, and 15000-20000 Hz.
 
@@ -20,7 +20,7 @@ The implementation uses high-order FIR filters or third-order Butterworth IIR fi
 ```text
 .
 ├── DSP_Final.m             # GUI callbacks and equalizer implementation
-├── DSP_Final.fig           # MATLAB GUIDE layout
+├── DSP_Final.fig           # MATLAB interface layout
 ├── Input.wav               # Example input audio
 ├── Filtered_normalspeed.wav
 ├── Slowdown_half.wav
@@ -31,7 +31,7 @@ The implementation uses high-order FIR filters or third-order Butterworth IIR fi
 ## Requirements
 
 - MATLAB with Signal Processing Toolbox
-- GUIDE compatibility for opening and editing the `.fig` interface
+- Compatibility with the `.fig` interface layout
 
 ## Run the Application
 
